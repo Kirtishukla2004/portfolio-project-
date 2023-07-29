@@ -173,6 +173,7 @@ button{
 color: #000000;
   font-size: 1.9rem;
   border-radius: 25px;
+  cursor: pointer;
 }
 .list{
 float:right;
@@ -181,6 +182,9 @@ margin-right: 30px;
 
 
 }
+ul{
+  margin-top:-2%;
+}
 a{
   color: #000000;
   text-decoration: none;
@@ -188,4 +192,15 @@ a{
 a:hover{
   color: white ;
 
+}
+.home:hover{
+  padding-left: 100px;
+  background-color: black;
+ 
+}
+.home:hover::before{
+   content: "home";
+   position: absolute;
+   color: #ec0000;
+  margin-right: 40%;
 }
