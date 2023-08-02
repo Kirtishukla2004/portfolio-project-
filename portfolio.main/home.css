@@ -107,13 +107,12 @@ h3 {
   display: flex;
 }
 
-.button_set{
+.button_set {
   margin-top: -10%;
-   float: right;
-   margin-right: 30%;
-  
+  float: right;
+  margin-right: 30%;
 }
-.text{
+.text {
   font-size: 1.5rem;
   padding: 5px;
   padding-bottom: 7px;
@@ -123,81 +122,111 @@ h3 {
   text-transform: capitalize;
   font-weight: bold;
 }
-button{
-position: relative;
-transition: .4s ease-in;
+button {
+  position: relative;
+  transition: 0.4s ease-in;
 }
-button::after,button::before{
-position: absolute;
-content: " ";
-z-index: -1;}
-.arrow{
+button::after,
+button::before {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+}
+.arrow {
   font-size: 2rem;
-  border:0.5px solid black;
+  border: 0.5px solid black;
   color: white;
   background-color: #000;
   border-radius: 50px;
-
-
 }
-.text:hover{
+.text:hover {
   cursor: pointer;
   background-color: black;
-  
+
   color: beige;
   font-size: 2em;
-
 }
 
-.text::after{
+.text::after {
   height: 0;
   left: 0;
   bottom: 0;
   transition-duration: 0.1s;
   width: 100%;
-
 }
-.text:hover::after{
+.text:hover::after {
   height: 100%;
 }
-ul{
+ul {
   list-style: none;
-  display:inline-block;
-justify-content: space-between;
-font-size: 3rem;
-
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 3rem;
 }
-button{
-  border:none;
+button {
+  border: none;
   background-color: #ffffff;
-color: #000000;
+  color: #000000;
   font-size: 1.9rem;
   border-radius: 25px;
   cursor: pointer;
 }
-.list{
-float:right;
-margin-top: -30%;
-margin-right: 30px;
-
-
+.list {
+  float: right;
+  margin-top: -30%;
+  margin-right: 30px;
 }
-ul{
-  margin-top:-2%;
+ul {
+  margin-top: -2%;
 }
-a{
+a {
   color: #000000;
   text-decoration: none;
 }
-a:hover{
-  color: white ;
-
+a:hover {
+  color: white;
 }
 
-.home:hover{
-    border: none;
-    border-radius: 20px;
-    background-color: black;
-    width: 100%;
-    height: 100%;
-  }
+.home:hover {
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+
+}
+.about:hover {
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.projects:hover {
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.contact:hover {
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.contact {
+  color: #54e467;
+}
+.blog:hover {
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.home_title {
+  color: #eeeeee;
+}
